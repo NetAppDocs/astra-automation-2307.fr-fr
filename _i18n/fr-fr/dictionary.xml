@@ -210,7 +210,6 @@
   <block id="f42562a6ae551c35216254ce200afcc8" category="cell">Source du crochet</block>
   <block id="fba14cda608976c44a49d623666f37c7" category="cell">Les ressources de la source de hook représentent le code source réel utilisé avec un crochet d'exécution. La séparation du code source et du contrôle d'exécution présente plusieurs avantages, tels que la possibilité de partager les scripts.</block>
   <block id="f156c7862a93e81ca10ba4bc4349824d" category="cell">Groupe LDAP</block>
-  <block id="dc488877c36bb584e674e32f8b4e1de4" category="cell">*22.11*</block>
   <block id="8a958fceac1f74e78832d8498767ce1f" category="cell">Vous pouvez lister les groupes au sein du serveur LDAP configuré. L'accès aux groupes LDAP est en lecture seule.</block>
   <block id="30b31a74662fc368bd562efd0f43adc2" category="cell">Utilisateur LDAP</block>
   <block id="0d0a6d61fee1311a1ba8a542e2bb5623" category="cell">Vous pouvez lister les utilisateurs au sein du serveur LDAP configuré. L'accès aux utilisateurs LDAP est en lecture seule.</block>
@@ -1246,4 +1245,9 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">Versions antérieures</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="sidebar">Référence API</block>
+  <block id="c4340906de504057557c6bb8611b0ab5" category="cell">22.11</block>
+  <block id="ed5dea09095f671b801bee34ea28a319" category="cell">Autorisations</block>
+  <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23.06</block>
+  <block id="22a15af82a20adf60996d549baa48d24" category="cell">Les ressources d'autorisation représentent les autorisations liées aux opérations au sein du système. L'API fournit un accès en lecture seule aux autorisations.</block>
+  <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">Les ressources de rôle représentent les rôles disponibles dans le système. L'API fournit un accès en lecture seule aux rôles.</block>
 </blocks>
