@@ -7,6 +7,7 @@ summary: 'Points de terminaison du package Astra API (ACS)'
 ---
 = Points de terminaison du package Astra API (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 L'API Package représente les packages logiciels installables.

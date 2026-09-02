@@ -7,6 +7,7 @@ summary: 'Points de terminaison de cluster gérés par l"API Astra (ACS)'
 ---
 = Points de terminaison de cluster gérés par l'API Astra (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 L'API Managed Cluster représente les clusters Kubernetes gérés.

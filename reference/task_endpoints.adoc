@@ -7,6 +7,7 @@ summary: 'Points de terminaison de tâches de l"API Astra (ACS)'
 ---
 = Points de terminaison de tâches de l'API Astra (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 L'API de l'application Task permet d'accéder aux ressources de tâches gérées afin de représenter les tâches de longue durée.
