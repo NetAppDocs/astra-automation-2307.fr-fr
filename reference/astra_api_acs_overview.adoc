@@ -2,12 +2,16 @@
 sidebar: sidebar 
 api: true 
 explorer: false 
-permalink: 'reference/astra_api_(acs)_overview.html' 
+permalink: reference/astra_api_acs_overview.html 
+keywords: astra control rest api,api reference,automation,api endpoints,crud operations 
 summary: 'Présentation de l"API Astra (ACS)' 
 ---
 = Présentation de l'API Astra (ACS)
 :allow-uri-read: 
 :imagesdir: ../media/
 
+
+[role="lead"]
+Trouvez les points de terminaison, les méthodes HTTP, les paramètres d'entrée et les réponses dont vous avez besoin pour automatiser les tâches Astra Control. L'API vous offre un accès de création, de lecture, de mise à jour et de suppression aux ressources Astra Control.
 
 La documentation de référence de l'API REST Astra Control contient les détails de tous les appels d'API REST, y compris les points de terminaison, les méthodes HTTP, les paramètres d'entrée et les réponses. Cette référence complète est utile lors du développement d'applications d'automatisation utilisant l'API. L'API REST Astra fournit un accès CRUD (Créer-Lire-Mettre à jour-Supprimer) à toutes les ressources Astra Control, sauf indication contraire pour une catégorie de ressources spécifique. Cette documentation de référence s'applique à la version 23.07 de l'API REST Astra Control.

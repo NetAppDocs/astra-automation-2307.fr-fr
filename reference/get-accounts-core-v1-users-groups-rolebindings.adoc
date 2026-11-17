@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true 
 explorer: true 
 permalink: reference/get-accounts-core-v1-users-groups-rolebindings.html 
+keywords: account resources,role bindings,user groups,resource collection,matching resources 
 summary: Répertorier les liaisons de rôles pour un groupe associé à un utilisateur 
 ---
 = Répertorier les liaisons de rôles pour un groupe associé à un utilisateur
@@ -10,7 +11,20 @@ summary: Répertorier les liaisons de rôles pour un groupe associé à un utili
 :imagesdir: ../media/
 
 
+[role="lead"]
+Récupère les liaisons de rôles d’un groupe associé à un utilisateur, pour vous aider à comprendre les autorisations d’accès attribuées à ce groupe.
+
+
+
+[[http-method-and-endpoint]]
+== Méthode HTTP et point de terminaison
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/users/{user_id}/groups/{group_id}/roleBindings`#
+
+
+
+[[usage-notes]]
+== Remarques sur l'utilisation
 
 Renvoie un tableau JSON contenant toutes les ressources correspondantes de la collection. Si des champs individuels sont spécifiés dans la requête, le tableau JSON items contiendra les champs demandés pour chaque ressource correspondante dans l'ordre indiqué.
 
@@ -515,7 +529,7 @@ Tableau JSON de chaînes JSON spécifiant la portée de l'attribution du rôle. 
 
 * 
 +
-= Autoriser l'accès à tous les espaces de noms étiquetés « dev » dans n'importe quel cluster, dans n'importe quel cloud, et à tout ce qui s'y trouve : «roleConstraints» : [ « namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"] » ]
+= Autoriser l’accès à tous les espaces de noms étiquetés « dev » dans n’importe quel cluster de n’importe quel cloud, ainsi qu’à tout ce qui se trouve en dessous : « roleConstraints » : [ « namespaces:kubernetesLabels='dev.example.com/appname=dev'.* » ]
 
 * 
 +

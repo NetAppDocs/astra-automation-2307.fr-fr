@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true 
 explorer: false 
 permalink: reference/get-accounts-core-v1-groups-rolebindings.html 
+keywords: role bindings,group roles,account resources,collection filters,resource sorting 
 summary: Lister les liaisons de rôle pour un groupe 
 ---
 = Lister les liaisons de rôle pour un groupe
@@ -10,7 +11,20 @@ summary: Lister les liaisons de rôle pour un groupe
 :imagesdir: ../media/
 
 
+[role="lead"]
+Récupère les attributions de rôles d'un groupe et fournit une liste des ressources correspondantes dans la collection. Utilisez ceci pour accéder à des informations détaillées sur les attributions de rôles spécifiques associées au groupe.
+
+
+
+[[http-method-and-endpoint]]
+== Méthode HTTP et point de terminaison
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/groups/{group_id}/roleBindings`#
+
+
+
+[[usage-notes]]
+== Remarques sur l'utilisation
 
 Renvoie un tableau JSON contenant toutes les ressources correspondantes de la collection. Si des champs individuels sont spécifiés dans la requête, le tableau JSON items contiendra les champs demandés pour chaque ressource correspondante dans l'ordre indiqué.
 
@@ -510,7 +524,7 @@ Tableau JSON de chaînes JSON spécifiant la portée de l'attribution du rôle. 
 
 * 
 +
-= Autoriser l'accès à tous les espaces de noms étiquetés « dev » dans n'importe quel cluster, dans n'importe quel cloud, et à tout ce qui s'y trouve : «roleConstraints» : [ « namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"] » ]
+= Autoriser l’accès à tous les espaces de noms étiquetés « dev » dans n’importe quel cluster de n’importe quel cloud, ainsi qu’à tout ce qui se trouve en dessous : « roleConstraints » : [ « namespaces:kubernetesLabels='dev.example.com/appname=dev'.* » ]
 
 * 
 +
